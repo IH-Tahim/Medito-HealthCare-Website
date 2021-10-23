@@ -1,0 +1,44 @@
+footer>h2,h3,h4{
+    color: aliceblue;
+}
+footer p,span{
+    color:#777777;
+}
+.border_right{
+    border-right:1px solid #222222 ;
+}
+.contact_container{
+
+}
+.footer-ul{
+    color:#777777 ;
+    list-style-type: none;
+    padding: 0;
+    letter-spacing: 1.2px;
+
+}
+.footer-ul li a{
+    text-decoration: none;
+    color: #777777;
+}
+.footer-ul li a:hover{
+    color: #5e5e5e;
+}
+
+
+.open-hr-table{
+    display: flex;
+    justify-content: space-between;
+}
+.border_bottom{
+    border-bottom: 1px dashed #333;
+}
+.form_bg{
+    background-color: #333;
+    border: none;
+}
+.footer_bottom{
+    background-color: #222222;
+    text-align: center;
+    color: #777777;
+}
