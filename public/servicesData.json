@@ -7,7 +7,7 @@
         },
         "title": "Child Health",
         "price": 27,
-        "img": ""
+        "img": "https://i.ibb.co/W3RjsHy/Child-Health.png"
     },
     {
         "id": 1561,
@@ -17,7 +17,7 @@
         },
         "title": "Depression",
         "price": 18,
-        "img": ""
+        "img": "https://i.ibb.co/87XzpNQ/Depression.png"
     },
     {
         "id": 1562,
@@ -25,9 +25,9 @@
             "first": "Popular",
             "second": "Mental Health"
         },
-        "title": "Isomnia",
+        "title": "Insomnia",
         "price": 30,
-        "img": ""
+        "img": "https://i.ibb.co/vhFBDcQ/Insomnia.png"
     },
     {
         "id": 1563,
@@ -37,7 +37,7 @@
         },
         "title": "Birth Control",
         "price": 12,
-        "img": ""
+        "img": "https://i.ibb.co/n1yVmnV/Birth-Control.png"
     },
     {
         "id": 1564,
@@ -47,7 +47,7 @@
         },
         "title": "Blood Pressure",
         "price": 23,
-        "img": ""
+        "img": "https://i.ibb.co/K5XNZHd/Blood-Pressure.png"
     },
     {
         "id": 1565,
@@ -57,7 +57,7 @@
         },
         "title": "Hair Loss",
         "price": 24,
-        "img": ""
+        "img": "https://i.ibb.co/bQ7bWwZ/Hair-Loss.png"
     },
     {
         "id": 1566,
@@ -67,7 +67,7 @@
         },
         "title": "Stop Smoking",
         "price": 18,
-        "img": ""
+        "img": "https://i.ibb.co/ZNNBJQ7/Stop-Smoking.png"
     },
     {
         "id": 1567,
@@ -77,7 +77,7 @@
         },
         "title": "Allergy",
         "price": 20,
-        "img": ""
+        "img": "https://i.ibb.co/4R5TqLt/Allergy.png"
     },
     {
         "id": 1568,
@@ -87,7 +87,7 @@
         },
         "title": "Migraine",
         "price": 12,
-        "img": "https://cdn.pixabay.com/photo/2018/09/07/15/59/headache-3660963__340.jpg"
+        "img": "https://i.ibb.co/s3TZYvW/Migraine.png"
     },
     {
         "id": 1569,
@@ -97,7 +97,7 @@
         },
         "title": "Asthma",
         "price": 22,
-        "img": ""
+        "img": "https://i.ibb.co/rpY3W81/Asthma.png"
     },
     {
         "id": 1570,
@@ -107,7 +107,7 @@
         },
         "title": "Pregnency",
         "price": 14,
-        "img": ""
+        "img": "https://i.ibb.co/BsjKT7w/Pregnancy.png"
     },
     {
         "id": 1571,
@@ -117,6 +117,6 @@
         },
         "title": "Dark Spot",
         "price": 26,
-        "img": ""
+        "img": "https://i.ibb.co/gZ5xpmQ/Dark-Spot.png"
     }
 ]
