@@ -28,7 +28,10 @@ const Footer = () => {
                         <Col md={5} className="text-center border_right px-3">
                             <div className="border_bottom">
                                 <img src={logoLight} height="50" alt="" />
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nesciunt in doloribus adipisci asperiores iste, aliquam culpa totam atque voluptatum deleniti. Sed nesciunt, quaerat nobis voluptatum magni quis cumque aliquid.</p>
+                                <p>To serve the humanity as a whole with this noble vision the Ibn Sina Trust
+                                    started its journey in June 1980. The trust has agreed upon to provide health care service to the
+                                    people of Bangladesh with affordable cost.
+                                </p>
                             </div>
                             <div className="mt-3 mb-3">
                                 <h4>Subscribe to Newslatter</h4>

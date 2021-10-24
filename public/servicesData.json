@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1560,
+        "tags": {
+            "first": "Popular",
+            "second": "Child Health"
+        },
+        "title": "Child Health",
+        "price": 27,
+        "img": ""
+    },
+    {
+        "id": 1561,
+        "tags": {
+            "first": "Popular",
+            "second": "Mental Health"
+        },
+        "title": "Depression",
+        "price": 18,
+        "img": ""
+    },
+    {
+        "id": 1562,
+        "tags": {
+            "first": "Popular",
+            "second": "Mental Health"
+        },
+        "title": "Isomnia",
+        "price": 30,
+        "img": ""
+    },
+    {
+        "id": 1563,
+        "tags": {
+            "first": "Popular",
+            "second": "Women's Health"
+        },
+        "title": "Birth Control",
+        "price": 12,
+        "img": ""
+    },
+    {
+        "id": 1564,
+        "tags": {
+            "first": "Popular",
+            "second": "General Health"
+        },
+        "title": "Blood Pressure",
+        "price": 23,
+        "img": ""
+    },
+    {
+        "id": 1565,
+        "tags": {
+            "first": "Skin",
+            "second": "General Health"
+        },
+        "title": "Hair Loss",
+        "price": 24,
+        "img": ""
+    },
+    {
+        "id": 1566,
+        "tags": {
+            "first": "Mental Health",
+            "second": ""
+        },
+        "title": "Stop Smoking",
+        "price": 18,
+        "img": ""
+    },
+    {
+        "id": 1567,
+        "tags": {
+            "first": "Popular",
+            "second": "General Health"
+        },
+        "title": "Allergy",
+        "price": 20,
+        "img": ""
+    },
+    {
+        "id": 1568,
+        "tags": {
+            "first": "General Health",
+            "second": ""
+        },
+        "title": "Migraine",
+        "price": 12,
+        "img": "https://cdn.pixabay.com/photo/2018/09/07/15/59/headache-3660963__340.jpg"
+    },
+    {
+        "id": 1569,
+        "tags": {
+            "first": "General Health",
+            "second": "Heart"
+        },
+        "title": "Asthma",
+        "price": 22,
+        "img": ""
+    },
+    {
+        "id": 1570,
+        "tags": {
+            "first": "Women's Health",
+            "second": "Popular"
+        },
+        "title": "Pregnency",
+        "price": 14,
+        "img": ""
+    },
+    {
+        "id": 1571,
+        "tags": {
+            "first": "Skin",
+            "second": ""
+        },
+        "title": "Dark Spot",
+        "price": 26,
+        "img": ""
+    }
+]

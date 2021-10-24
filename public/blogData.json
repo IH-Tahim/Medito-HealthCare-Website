@@ -1,0 +1,74 @@
+[
+    {
+        "id": 0,
+        "date": "22/6/2021",
+        "title": "COVID Vaccine vs. Flu Vaccine: What to Know",
+        "details": "Two of the three COVID vaccines (Pfizer and Moderna) adopted in the United States are mRNA, or messenger RNA. The shots work by delivering molecules of antigen-encoding mRNA into immune cells, triggering an immune response. They represent nearly 20 years of research and are relatively easy to produce.",
+        "name": "Todd Douglas",
+        "img": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/news/2020/08_2020/coronavirus_vaccine/1800x1200_coronavirus_vaccine_alt.jpg?resize=*:350px"
+    },
+    {
+        "id": 1,
+        "date": "24/10/2020",
+        "title": "E-cigarettes No Guarantee Against Relapse for Smokers",
+        "details": "A recent study showed that people who quit cigarette smoking and then started using electronic cigarettes were just as likely to return to traditional tobacco cigarettes as people who switched to nicotine gum and other products.",
+        "name": "Garrett Jones",
+        "img": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/news/2014/08_2014/e_cigarette_faq/650x350_e_cigarette_faq.jpg"
+    },
+    {
+        "id": 2,
+        "date": "21/8/2021",
+        "title": "COVID Vaccination Rates Vary By People's Zodiac Sign",
+        "details": "The Salt Lake County Health Department calculated the rates based on anonymous birth dates from the county’s vaccination data and then compared those figures to national estimates for the overall population represented by each sign.",
+        "name": "Ochoa Bolton",
+        "img": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/news/2021/10_2021/astrology_chart/1800x1200_astrology_chart.jpg?resize=*:350px"
+    },
+    {
+        "id": 3,
+        "date": "27/10/2021",
+        "title": "Does Eating Nuts Lead to Better Breast Cancer Outcomes?",
+        "details": "In a first of its kind study, women with a breast cancer diagnosis who recalled eating nuts were found to have a significantly better disease-free survival over a 10-year study period compared with to those who said they had not eaten nuts.",
+        "name": "Claudia Villarreal",
+        "img": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/features/cm_aff_migraine_7_foods_to_eat_with_your_cat_features/1800x1200_cm_aff_migraine_7_foods_to_eat_with_your_cat_seeds_nuts_features.jpg?resize=*:350px"
+    },
+    {
+        "id": 4,
+        "date": "17/12/2020",
+        "title": "Broken Heart Syndrome: On the Rise, Especially in Women 50-74",
+        "details": "In late 2013, she was in Washington, DC, planning a meeting of the American Society of Nephrology. When the organizers decided at the last minute that another session was needed, she stayed late, putting it together. Then she hopped on a plane and returned home to Los Angeles on a Saturday night.",
+        "name": "Alison Sandoval",
+        "img": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/quizzes/fit_teen_broken_heart_rmq/1800x1200_fit_teen_broken_heart_rmq.jpg?resize=*:350px"
+    },
+    {
+        "id": 5,
+        "date": "18/2/2021",
+        "title": "Blood Pressure Medications Recalled for Possible High Carcinogen Levels",
+        "details": "Two types of blood pressure medication made by Lupin Pharmaceuticals have been recalled due to potential high levels of a cancer-causing substance, according to an FDA recall notice. Lupin said it stopped marketing the tablets in January. Both types are used to treat hypertension, or high blood pressure.",
+        "name": "Harding Glover",
+        "img": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/reference_guide/treatments_for_ankylosing_spondylitis_ref_guide/1800x1200_treatments_for_ankylosing_spondylitis_ref_guide.jpg?resize=*:350px"
+    },
+    {
+        "id": 6,
+        "date": "21/2/2020",
+        "title": "Whole Onions Identified as Source of Ongoing Salmonella Outbreak",
+        "details": "Federal officials have identified whole onions as the source of an ongoing, multistate outbreak of Salmonella Oranienburg, according to a CDC food safety alert released Wednesday. One source linked to the infection is fresh",
+        "name": "Karin Taylor",
+        "img": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/slideshows/health_benefits_of_onions_slideshow/1800x1200_health_benefits_of_onions_slideshow.jpg?resize=*:350px"
+    },
+    {
+        "id": 7,
+        "date": "22/7/2020",
+        "title": "Vaccine Mandates Won’t Disrupt Holiday Flights",
+        "details": "Executives with American Airlines and Southwest Airlines said Thursday that they won’t immediately fire employees who aren’t vaccinated in December and don’t anticipate disruptions during the busy holiday season, according to The Wall Street Journal.",
+        "name": "Camacho Phillips",
+        "img": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/video/holiday_travel_stress_video/650x350_holiday_travel_stress_video.jpg?resize=*:350px"
+    },
+    {
+        "id": 8,
+        "date": "28/8/2020",
+        "title": "Vaccine Mandates May Cause Holiday Shipping Disruptions",
+        "details": "The Cargo Airline Association, a trade group that represents companies such as UPS and FedEx, warned the Biden administration this week that its Dec. 8 vaccine mandate deadline could disrupt the busiest shipping season of the year, according to Politico.",
+        "name": "Dolly Bond",
+        "img": "https://img.webmd.com/dtmcms/live/webmd/consumer_assets/site_images/article_thumbnails/news/2015/11_2015/dangerous_toys/650x350_dangerous_toys.jpg"
+    }
+]
