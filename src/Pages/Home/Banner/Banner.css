@@ -1,0 +1,15 @@
+
+
+.banner-container{
+    background-image: url("https://images2.imgbox.com/e8/7d/Zwdg2wLI_o.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    height: 85vh;
+}
+
+.align_banner_text{
+    display: flex;
+    align-items: center;
+    height: 85vh;
+}
