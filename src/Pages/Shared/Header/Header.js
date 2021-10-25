@@ -14,7 +14,7 @@ const Header = () => {
 
                     <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
                         <Nav>
-                            <Nav.Link href="#home">Home</Nav.Link>
+                            <Nav.Link to="/home">Home</Nav.Link>
                             <Nav.Link href="#home">About</Nav.Link>
                             <Nav.Link href="#home">Services</Nav.Link>
                             <Nav.Link href="#features">Blog</Nav.Link>
