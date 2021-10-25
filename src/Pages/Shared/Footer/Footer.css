@@ -1,4 +1,6 @@
-footer>h2,h3,h4{
+footer h2,
+footer h3,
+footer h4{
     color: aliceblue;
 }
 footer p,span{

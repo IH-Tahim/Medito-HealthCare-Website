@@ -1,0 +1,18 @@
+.icon_box{
+    font-size: 25px;
+    padding: 17px 20px;
+    background-color: #99a4f5;
+    transition: 0.3s;
+    
+}
+.icon_box_1{
+    font-size: 25px;
+    padding: 17px 23px;
+    background-color: #99a4f5;
+    transition: 0.3s;
+}
+.f_item_container:hover .icon_box,
+.f_item_container:hover .icon_box_1{
+    background-color: #fff;
+    color: #99a4f5;
+}

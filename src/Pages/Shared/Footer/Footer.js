@@ -2,7 +2,7 @@ import React from 'react';
 import { Col, Container, Form, InputGroup, Row, Button } from 'react-bootstrap';
 import './Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faCoffee, faPhoneAlt, faEnvelope, faMapMarkerAlt, faLocationArrow } from '@fortawesome/free-solid-svg-icons';
+import { faPhoneAlt, faEnvelope, faMapMarkerAlt, faLocationArrow } from '@fortawesome/free-solid-svg-icons';
 import logoLight from "../../../logoWhite.svg";
 
 const Footer = () => {
