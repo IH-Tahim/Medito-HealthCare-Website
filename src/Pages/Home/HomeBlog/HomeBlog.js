@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const HomeBlog = ({ blog }) => {
-    console.log(blog);
+
     const { title, img, name, details, date } = blog;
     return (
         <Col>
