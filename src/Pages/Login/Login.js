@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
-import { useForm } from 'react-hook-form';
+
 import { Container, Form, Row, Button } from 'react-bootstrap';
-import useFirebase from '../../Hooks/useFirebase';
+
 import { Link } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 import { getAuth, signInWithEmailAndPassword } from "firebase/auth";
 
 
 const Login = () => {
-    const { register, handleSubmit } = useForm();
-    const { googleSignIn, logOut } = useAuth();
+
+    const { googleSignIn } = useAuth();
 
 
     const [email, setEmail] = useState("");
@@ -67,7 +67,7 @@ const Login = () => {
                 </div>
 
             </Row>
-            <button onClick={logOut}>logout</button>
+
         </Container>
     );
 };

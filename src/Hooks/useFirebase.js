@@ -8,7 +8,7 @@ const useFirebase = () => {
     const googleProvider = new GoogleAuthProvider();
     const auth = getAuth();
 
-    console.log(user);
+
 
 
 
@@ -20,7 +20,8 @@ const useFirebase = () => {
 
             setUser(result.user);
         }).catch(error => {
-            console.log(error);
+            console.log(error.message);
+
         });
 
 

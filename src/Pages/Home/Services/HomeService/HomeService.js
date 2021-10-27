@@ -1,5 +1,5 @@
 import React from 'react';
-import { Badge, Col, Row } from 'react-bootstrap';
+import { Badge, Col } from 'react-bootstrap';
 import './HomeService.css'
 
 const HomeService = ({ service }) => {

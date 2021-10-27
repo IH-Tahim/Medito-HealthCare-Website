@@ -12,6 +12,7 @@ import Login from './Pages/Login/Login';
 import Register from './Pages/Register/Register';
 import ConfirmService from './Pages/ConfirmService/ConfirmService';
 import AuthProvider from './Contexts/AuthProvider';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 
 
 
@@ -39,9 +40,9 @@ function App() {
               <Services></Services>
             </Route>
 
-            <Route path="/services/:serviceId">
+            <PrivateRoute path="/services/:serviceId">
               <ConfirmService></ConfirmService>
-            </Route>
+            </PrivateRoute>
 
             <Route path="/blogs">
               <Blogs></Blogs>
