@@ -7,7 +7,9 @@ const useFirebase = () => {
     const [user, setUser] = useState({});
     const googleProvider = new GoogleAuthProvider();
     const auth = getAuth();
+
     console.log(user);
+
 
 
 
@@ -37,7 +39,7 @@ const useFirebase = () => {
     const logOut = () => {
         signOut(auth)
             .then(() => {
-                console.log("loged out");
+
             })
     }
 
