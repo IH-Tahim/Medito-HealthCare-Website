@@ -59,7 +59,7 @@ const Register = () => {
                         <Form.Control type="password" placeholder="Password" onBlur={handelPasswordChange} />
                     </Form.Group>
                     <Button variant="primary" type="submit" onClick={emailPassSignUp}>
-                        Submit
+                        Register
                     </Button>
 
                     <p className="text-success my-2">{message}</p>

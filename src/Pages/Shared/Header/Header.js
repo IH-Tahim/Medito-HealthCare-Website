@@ -17,7 +17,7 @@ const Header = () => {
 
     return (
         <>
-            <Navbar bg="light" variant="light" expand="lg" fixed="top">
+            <Navbar bg="light" variant="light" expand="lg">
                 <Container>
                     <Navbar.Brand as={Link} to="/"><img src={logo} alt="" height="40" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
