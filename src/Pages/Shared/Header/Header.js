@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../../Hooks/useAuth';
@@ -10,7 +10,7 @@ const Header = () => {
 
     const userIcon = user.email;
 
-    console.log(userIcon);
+
 
 
 

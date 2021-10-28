@@ -43,7 +43,7 @@ const Register = () => {
     return (
         <Container>
             <Row className="justify-content-center my-4">
-                <div className="w-50 border border-2 border-primary">
+                <div className="w-75 border border-2 border-primary">
                     <h3 className="text-center pt-2">Regiser</h3>
 
                     <Form.Group className="mb-3" controlId="formBasicEmail">

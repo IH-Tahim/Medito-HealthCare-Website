@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Container, Row, Button } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import './HomeBlogs.css';
 import HomeBlog from './HomeBlog';
 import { Link } from 'react-router-dom';
@@ -28,7 +28,7 @@ const HomeBlogs = () => {
                 </Row>
                 <div className="text-center">
                     <Link to="/blogs">
-                        <Button variant="primary" className="w-25 m-auto fs-3 mt-3 mb-4 rounded-pill">See All Blogs</Button>
+                        <button className="btn btn-primary m-auto mt-3 mb-4 rounded-pill">See All Blogs</button>
                     </Link>
                 </div>
 
