@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { getAuth, createUserWithEmailAndPassword } from "firebase/auth";
 import { Container, Form, Row, Button } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useHistory, useLocation } from 'react-router-dom';
 import useAuth from '../../Hooks/useAuth';
 
 
@@ -9,12 +9,17 @@ import useAuth from '../../Hooks/useAuth';
 
 const Register = () => {
     const { googleSignIn } = useAuth();
-
+    //Variable For Geting Email,password and Eroor message
     const [email, setEmail] = useState("");
     const [password, setPassword] = useState("");
     const [message, setMessage] = useState('');
 
-    const auth = getAuth();
+    // Variable For Url redirect
+    const history = useHistory();
+    const location = useLocation();
+    const redirectUrl = location.state?.from || '/home';
+
+    const auth = getAuth();//firebase auth
 
     const handelEmailChange = e => {
         setEmail(e.target.value);
@@ -27,8 +32,9 @@ const Register = () => {
     const emailPassSignUp = () => {
         createUserWithEmailAndPassword(auth, email, password)
             .then(result => {
-
                 setMessage('User Created Success');
+                history.push(redirectUrl);
+
             }).catch(error => {
                 setMessage(error.message);
             })

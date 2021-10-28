@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
 import { useForm } from 'react-hook-form';
 import { useParams } from 'react-router';
+import useAuth from '../../Hooks/useAuth';
 
 
 const ConfirmService = () => {
@@ -12,6 +13,7 @@ const ConfirmService = () => {
     console.log(errors);
 
     const { serviceId } = useParams();
+    const { user } = useAuth();
 
 
     return (
@@ -22,12 +24,12 @@ const ConfirmService = () => {
                     <form onSubmit={handleSubmit(onSubmit)} className="mb-3">
                         <div className="mb-3">
                             <label className="form-label">Name: *</label>
-                            <input type="text" placeholder="Full Name" className="form-control" {...register("Full Name", { required: true, maxLength: 80 })} />
+                            <input type="text" value={user.displayName} placeholder="Full Name" className="form-control" {...register("Full Name", { required: true, maxLength: 80 })} />
 
                         </div>
                         <div className="mb-3">
                             <label className="form-label">Email: *</label>
-                            <input type="text" className="form-control" placeholder="Email" {...register("Email", { required: true, pattern: /^\S+@\S+$/i })} />
+                            <input type="text" className="form-control" value={user.email} placeholder="Email" {...register("Email", { required: true, pattern: /^\S+@\S+$/i })} />
 
                         </div>
                         <div className="mb-3">

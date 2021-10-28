@@ -36,9 +36,9 @@ function App() {
               <About></About>
             </Route>
 
-            <Route exact path="/services">
+            <PrivateRoute exact path="/services">
               <Services></Services>
-            </Route>
+            </PrivateRoute>
 
             <PrivateRoute path="/services/:serviceId">
               <ConfirmService></ConfirmService>

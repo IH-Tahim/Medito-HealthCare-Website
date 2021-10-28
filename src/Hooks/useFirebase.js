@@ -5,6 +5,7 @@ import initializeAuth from '../Firebase/firebase.init';
 initializeAuth();
 const useFirebase = () => {
     const [user, setUser] = useState({});
+    const [loading, setLoading] = useState(true);
     const googleProvider = new GoogleAuthProvider();
     const auth = getAuth();
 
@@ -14,15 +15,9 @@ const useFirebase = () => {
 
 
     // Handel Google Sign In
-    const googleSignIn = () => signInWithPopup(auth, googleProvider)
-        .then(result => {
-
-
-            setUser(result.user);
-        }).catch(error => {
-            console.log(error.message);
-
-        });
+    const googleSignIn = () => {
+        return signInWithPopup(auth, googleProvider);
+    }
 
 
 
@@ -32,22 +27,28 @@ const useFirebase = () => {
             if (user) {
                 setUser(user);
             }
+            else {
+                setUser({});
+            }
+            setLoading(false);
         })
     }, [])
 
     // Handel Logout user
 
     const logOut = () => {
+        setLoading(true);
         signOut(auth)
             .then(() => {
 
-            })
+            }).finally(() => setLoading(false))
     }
 
     return {
         googleSignIn,
         user,
-        logOut
+        logOut,
+        loading
     }
 };
 
